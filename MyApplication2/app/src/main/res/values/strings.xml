@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">My Application2</string>
+    <string name="GoToSecondActivity">Button</string>
+    <string name="boutonback">BoutonBack</string>
+    <string name="go_to_second_activity">Go To Second Activity</string>
+    <string name="go_page_de_google">Go page de google</string>
+    <string name="kevin">Kevin</string>
+    <string name="smith">Smith</string>
+    <string name="send_data">Send Data</string>
+    <string name="go_data_activity">Go Data Activity</string>
+</resources>

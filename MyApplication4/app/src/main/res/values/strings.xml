@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">My Application4</string>
+    <string name="password">Password</string>
+    <string name="name">Name</string>
+    <string name="register">Se Connecter</string>
+    <string name="nombre_d_essai">Nombre d\'essai</string>
+    <string name="nouvel_utilisateur_s_inscrire">Nouvel utilisateur ? S\'inscrire</string>
+    <string name="inscription">Inscription</string>
+    <string name="d_ja_inscrit_se_connecter">Déja Inscrit ? Se Connecter</string>
+    <string name="email">Email</string>
+</resources>
