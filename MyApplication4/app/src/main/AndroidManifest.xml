@@ -18,7 +18,8 @@
         </activity>
         <activity android:name=".SecondActivity" />
         <activity android:name=".InscriptionActivity" />
-        <activity android:name=".MotdepasseActivity"></activity>
+        <activity android:name=".MotdepasseActivity" />
+        <activity android:name=".ProfilActivity"></activity>
     </application>
 
 </manifest>

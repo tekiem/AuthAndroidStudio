@@ -15,4 +15,10 @@
     <string name="username">Username</string>
     <string name="age">Age</string>
     <string name="image_android">Image Android</string>
+    <string name="ProfileName">Name :</string>
+    <string name="ProfilEmail">Email :</string>
+    <string name="ProfileAge">Age :</string>
+    <string name="BtnProfileUpdate">Button</string>
+    <string name="profile">Profile</string>
+    <string name="edit">Edit</string>
 </resources>

@@ -54,6 +54,7 @@ public class InscriptionActivity extends AppCompatActivity {
                               // startActivity(new Intent(InscriptionActivity.this,MainActivity.class));
                                //sendEmailVerification();
                                sendUserData();
+                               firebaseAuth.signOut();
                                Toast.makeText(InscriptionActivity.this,"Vous êtes bien enregistré, les informations ont été enregistré !",Toast.LENGTH_SHORT).show();
                                finish();
                                startActivity(new Intent(InscriptionActivity.this,MainActivity.class));
