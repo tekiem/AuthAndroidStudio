@@ -12,9 +12,9 @@
         android:layout_height="wrap_content"
         android:layout_alignParentTop="true"
         android:layout_centerHorizontal="true"
-        android:layout_marginTop="39dp"
+        android:layout_marginTop="150dp"
         android:ems="10"
-        android:hint="@string/name"
+        android:hint="@string/username"
         android:inputType="textPersonName" />
 
     <Button
@@ -23,7 +23,7 @@
         android:layout_height="wrap_content"
         android:layout_alignParentTop="true"
         android:layout_centerHorizontal="true"
-        android:layout_marginTop="244dp"
+        android:layout_marginTop="400dp"
         android:text="@string/inscription" />
 
     <TextView
@@ -32,7 +32,7 @@
         android:layout_height="wrap_content"
         android:layout_alignParentTop="true"
         android:layout_centerHorizontal="true"
-        android:layout_marginTop="320dp"
+        android:layout_marginTop="450dp"
         android:text="@string/d_ja_inscrit_se_connecter"
         android:textSize="18sp" />
 
@@ -41,8 +41,8 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_alignParentTop="true"
-        android:layout_alignStart="@+id/SetUserName"
-        android:layout_marginTop="105dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="200dp"
         android:ems="10"
         android:hint="@string/email"
         android:inputType="textEmailAddress" />
@@ -52,9 +52,31 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_alignParentTop="true"
-        android:layout_alignStart="@+id/SetUserName"
-        android:layout_marginTop="183dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="250dp"
         android:ems="10"
         android:hint="@string/password"
         android:inputType="textPassword" />
+
+    <EditText
+        android:id="@+id/Age"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="300dp"
+        android:ems="10"
+        android:hint="@string/age"
+        android:inputType="number" />
+
+    <ImageView
+        android:id="@+id/ImageViewAndroid"
+        android:layout_width="128dp"
+        android:layout_height="105dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="23dp"
+        android:contentDescription="@string/image_android"
+        app:srcCompat="@mipmap/ic_launcher_round" />
+
 </RelativeLayout>

@@ -17,7 +17,8 @@
             </intent-filter>
         </activity>
         <activity android:name=".SecondActivity" />
-        <activity android:name=".InscriptionActivity"></activity>
+        <activity android:name=".InscriptionActivity" />
+        <activity android:name=".MotdepasseActivity"></activity>
     </application>
 
 </manifest>

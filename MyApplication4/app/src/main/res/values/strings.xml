@@ -8,4 +8,11 @@
     <string name="inscription">Inscription</string>
     <string name="d_ja_inscrit_se_connecter">Déja Inscrit ? Se Connecter</string>
     <string name="email">Email</string>
+    <string name="voici_la_deuxieme_activit">Voici la Deuxieme Activité</string>
+    <string name="logout">Logout</string>
+    <string name="mot_de_passe_oubli">Mot de passe oublié</string>
+    <string name="reset_mdp">Reset MDP</string>
+    <string name="username">Username</string>
+    <string name="age">Age</string>
+    <string name="image_android">Image Android</string>
 </resources>
