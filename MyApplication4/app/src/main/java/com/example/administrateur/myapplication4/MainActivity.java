@@ -49,7 +49,7 @@ public class MainActivity extends AppCompatActivity {
 
         if(user != null){
             finish();
-            startActivity(new Intent(MainActivity.this,SecondActivity.class));
+            startActivity(new Intent(MainActivity.this,TransitionActivity.class));
         }
 
         login.setOnClickListener(new View.OnClickListener() {
@@ -106,7 +106,7 @@ public class MainActivity extends AppCompatActivity {
         FirebaseUser fireBaseUser = firebaseAuth.getInstance().getCurrentUser();
         Boolean emailflag = fireBaseUser.isEmailVerified();
 
-        startActivity(new Intent(MainActivity.this,SecondActivity.class));
+        startActivity(new Intent(MainActivity.this,TransitionActivity.class));
 
         /*if (emailflag){
             finish();

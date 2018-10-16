@@ -21,4 +21,24 @@
     <string name="BtnProfileUpdate">Button</string>
     <string name="profile">Profile</string>
     <string name="edit">Edit</string>
+    <string name="by_kevin">By Kevin</string>
+    <string name="change_password">Change password</string>
+    <string name="sauvegarder">Sauvegarder</string>
+    <string name="EditAge">Age</string>
+    <string name="EditEmail">Email</string>
+    <string name="EditName">Username</string>
+    <string name="BtnSavePassword">Update</string>
+    <string name="son_1">Son 1</string>
+    <string name="son_2">Son 2</string>
+    <string name="son_3">Son 3</string>
+    <string name="son_4">Son 4</string>
+    <string name="son_5">Son 5</string>
+    <string name="son_6">Son 6</string>
+    <string name="play">Play</string>
+    <string name="pause">Pause</string>
+    <string name="stop">Stop</string>
+    <string name="music_player">Music Player</string>
+    <string name="kevin_application">Mon Application</string>
+    <string name="musique">MUSIQUE</string>
+    <string name="news">NEWS</string>
 </resources>

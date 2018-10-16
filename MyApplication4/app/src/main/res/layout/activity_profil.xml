@@ -8,8 +8,8 @@
 
     <ImageView
         android:id="@+id/IdProfilePic"
-        android:layout_width="110dp"
-        android:layout_height="110dp"
+        android:layout_width="200dp"
+        android:layout_height="200dp"
         android:layout_alignParentTop="true"
         android:layout_centerHorizontal="true"
         android:layout_marginTop="26dp"
@@ -22,9 +22,9 @@
         android:layout_height="wrap_content"
         android:layout_alignParentTop="true"
         android:layout_centerHorizontal="true"
-        android:layout_marginTop="200dp"
-        android:textSize="28dp"
-        android:text="@string/ProfileName" />
+        android:layout_marginTop="280dp"
+        android:text="@string/ProfileName"
+        android:textSize="28sp" />
 
     <TextView
         android:id="@+id/ProfilAge"
@@ -32,9 +32,9 @@
         android:layout_height="wrap_content"
         android:layout_alignParentTop="true"
         android:layout_centerHorizontal="true"
-        android:layout_marginTop="280dp"
-        android:textSize="20dp"
-        android:text="@string/ProfileAge" />
+        android:layout_marginTop="369dp"
+        android:text="@string/ProfileAge"
+        android:textSize="20sp" />
 
     <TextView
         android:id="@+id/ProfilEmail"
@@ -42,9 +42,9 @@
         android:layout_height="wrap_content"
         android:layout_alignParentTop="true"
         android:layout_centerHorizontal="true"
-        android:layout_marginTop="360dp"
+        android:layout_marginTop="423dp"
         android:text="@string/ProfilEmail"
-        android:textSize="20dp" />
+        android:textSize="20sp" />
 
     <Button
         android:id="@+id/BtnProfileUpdate"
@@ -52,7 +52,16 @@
         android:layout_height="wrap_content"
         android:layout_alignParentTop="true"
         android:layout_centerHorizontal="true"
-        android:layout_marginTop="440dp"
-        android:textSize="20dp"
-        android:text="@string/edit" />
+        android:layout_marginTop="481dp"
+        android:text="@string/edit"
+        android:textSize="20sp" />
+
+    <Button
+        android:id="@+id/BtnChangepassword"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="545dp"
+        android:text="@string/change_password" />
 </RelativeLayout>
